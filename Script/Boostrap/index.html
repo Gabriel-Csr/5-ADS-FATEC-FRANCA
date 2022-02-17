@@ -13,39 +13,148 @@
   <body>
     <h1>Grid com Bootstrap</h1>
 
-    <div class = geral>
+    <style>
+
+    </style>
+
+    <div class = "container">
         <!-------- primeira linha -->
         <div class = "form-row">
             <div class = "form-group col-md-6">
                 <label> E-mail </label> 
                 <input type= "text" class="form-control" id="email">
+         </div>
+               
 
         <div class = "form-group col-md-2 offset-md-1">
          <label> Senha </label> 
         <input type= "Password" class="form-control" id="password">
+        </div> 
+      
 
         <div class = "form-group col-md-1 offset-md-1">
             <label> Dt Cadastro </label> 
            <input type= "Dt Cadastro" class="form-control" id="dtcadastro">
-
+        
+      </div> 
+    </div>      
+         
        <!-------- segunda linha -->  
        
        <div class = "form-row">
         <div class = "form-group col-md-5">
             <label> Cidade </label> 
             <input type= "text" class="form-control" id="cidade">  
+          
+        </div> 
 
         <div class = "form-group col-md-2 offset-md-1">
        <label> Estado </label> 
-       <input type= "text" class="form-control" id="estado"> 
+       <select class= "form-control" id= "estado">
+       <option> Sao Paulo </option>
+       <option> Minas Gerais </option>
+       <option> Rio Grande do Sul </option>
+       <option> Rio de Janeiro </option>
+       <option> Goias </option>
+       <option> Santa Catarina </option>
 
-       <div class = "form-group col-md-1 offset-md-0">
+     </select>  
+      
+    </div> 
+
+       <div class = "form-group col-md-1 offset-md-1">
         <label> UF </label> 
-        <input type= "text" class="form-control" id="uf"> 
+        <select class= "form-control" id= "uf"> 
+        <option> AC </option>
+        <option> AL </option>
+        <option> AP </option>
+        <option> AM </option>
+        <option> BA </option>
+        <option> CE </option>
+        <option> DM </option>
+        <option> ES </option>
+        <option> GO </option>
+        <option> MA </option>
+        <option> MG </option>
+        <option> MS </option>
+        <option> MT </option>
+        <option> PA </option>
+        <option> PB </option>
+        <option> PE </option>
+        <option> PI </option>
+        <option> PR </option>
+        <option> RJ </option>
+        <option> RN </option>
+        <option> RO </option>
+        <option> RR </option>
+        <option> RS </option>
+        <option> SC </option>
+        <option> SE </option>
+        <option> SP </option>
+        <option> TO </option>
+
+    </select>
+        
+       
+    </div> 
 
         <div class = "form-group col-md-2 offset-md-0">
             <label> CEP </label> 
             <input type= "text" class="form-control" id="cep"> 
+          
+        </div> 
+      </div> 
+    
+         <!-------- terceira linha -->
+         <div class = "form-row">
+            <div class = "form-group col-md-5">
+                <label> Nome do Aluno </label> 
+                <input type= "text" class="form-control" id="nomedoaluno">
+              
+            </div>  
+
+        <div class = "form-group col-md-1 offset-md-1">
+               <label> Apelido </label> 
+               <input type= "text" class="form-control" id="apelido">
+              
+            </div> 
+
+         <div class = "form-group col-md-4 offset-md-1">
+                <label> A/I </label> 
+                 <input type= "text" class="form-control" id="ai">
+                 
+              </div> 
+
+         <div class = "form-group col-md-d offset-md-0">
+               <label> Dt Nascimento </label> 
+                 <input type= "text" class="form-control" id="dtnascimento">
+                 
+              </div> 
+            </div> 
+
+         <!-------- quarta linha -->
+
+         <div class = "form-row">
+            <div class = "form-group col-md-5">
+                <label> Idiomas </label> 
+                <input type= "checkbox"  id="idiomas" value="Inglês">Inglês
+                <input type= "checkbox"  id="idiomas" value="Francês">Francês
+                <input type= "checkbox"  id="idiomas" value="Alemão">Alemão
+            
+        </div>  
+            <div class ="form-check">
+                <input class="form-check-input" type="radio" name="sexoRadio" id="sexo">
+                <label class="form-check-label">
+                    Masculino
+                </label>
+
+            </div>
+            <div class ="form-check">
+                <input class="form-check-input" type="radio" name="sexoRadio" id="sexo">
+                <label class="form-check-label">
+                    Feminino
+                </label>
+                
 
                     
 
@@ -53,8 +162,6 @@
     
 
             </div>        
-        </div>   
-    </div>    
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
