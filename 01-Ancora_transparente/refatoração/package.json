@@ -1,0 +1,27 @@
+{
+  "name": "refatoracao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nondemon node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-Csr/5-ADS-FATEC-FRANCA.git"
+  },
+  "author": "Gabriel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-Csr/5-ADS-FATEC-FRANCA/issues"
+  },
+  "homepage": "https://github.com/Gabriel-Csr/5-ADS-FATEC-FRANCA#readme",
+  "dependencies": {
+    "eis": "^0.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

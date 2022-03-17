@@ -1,0 +1,26 @@
+html,
+body{
+    height:100vh;
+    width: 100vw;
+
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    height: 19vw;
+    border: 1px solid black;
+    
+}
+
+#principal{
+    background-color: darkgray;
+    height: 72vh;
+    border: 1px solid blue;
+}
+
+footer{
+    text-align: center;
+    height: 9vh;
+    border: 1px solid brown;
+}
