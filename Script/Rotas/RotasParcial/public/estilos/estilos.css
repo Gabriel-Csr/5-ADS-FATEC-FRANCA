@@ -37,5 +37,8 @@ footer {
     menu principal
 
 */
-.menuPrincipal ul li
+menuPrincipal ul li{
 
+    display:inline;
+    padding-left: 22px;
+}
