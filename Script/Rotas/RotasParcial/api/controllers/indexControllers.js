@@ -3,7 +3,7 @@ module.exports = {
 }
 
 function index(req, res) {
-    res.render('index-unico.ejs', {
+    res.render('index.ejs', {
         title: 'Re-fatorando',
         mensagem: 'Iniciando com NodeJS - Express - EJS',
         titulo: 'Menu Principal',
