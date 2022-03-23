@@ -7,7 +7,7 @@ function index(req, res) {
         title: 'Re-fatorando',
         mensagem: 'Iniciando com NodeJS - Express - EJS',
         titulo: 'Menu Principal',
-        autor: '5º ADS - Programação Script - Matutino'
+        autor: '5º ADS - Programação Script - Noturno'
     })
 
 }

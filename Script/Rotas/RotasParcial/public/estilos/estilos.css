@@ -13,6 +13,7 @@ header {
     background-color: aqua;
     height: 15vh;
     border: 1px solid black;
+    font-size: 20px;
 }
 
 #corpo {
@@ -28,5 +29,6 @@ footer {
     background-color: greenyellow;
     height: 10vh;
     border: 1px solid black;
+    font-size: 42px;
 }
 
