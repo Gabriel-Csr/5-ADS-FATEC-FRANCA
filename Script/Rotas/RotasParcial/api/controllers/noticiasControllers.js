@@ -1,6 +1,7 @@
 module.exports = {
     menuNoticiasControllers,
-    menuNoticiasEsporteControllers
+    menuNoticiasEsporteControllers,
+    menuNoticiasEsporteFutebolControllers
 }
 
 function menuNoticiasEsporteControllers (req, res) {
@@ -19,5 +20,13 @@ function menuNoticiasEsporteControllers (req, res) {
             autor: '5º ADS - Programação Script - Noturno'
         })
 
-}
 
+        function menuNoticiasEsporteFutebolControllers (req, res) {
+            res.render('noticias/frm_noticiasEsporteMenu.ejs', {
+                title: 'Noticias',
+                mensagem: 'Noticias de Esporte',
+                titulo: 'Menu Principal',
+                autor: '5º ADS - Programação Script - Noturno'
+            })
+}
+    }
