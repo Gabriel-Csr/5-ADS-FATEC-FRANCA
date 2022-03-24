@@ -3,16 +3,16 @@ module.exports = {
     menuNoticiasEsporteControllers
 }
 
-function menuNoticiasControllers (req, res) {
-    res.render('index.ejs', {
-        title: 'Re-fatorando',
-        mensagem: 'Iniciando com NodeJS - Express - EJS',
+function menuNoticiasEsporteControllers (req, res) {
+    res.render('noticias/frm_noticiasEsporteMenu.ejs', {
+        title: 'Noticias',
+        mensagem: 'Noticias de Esporte',
         titulo: 'Menu Principal',
         autor: '5º ADS - Programação Script - Noturno'
     })
 }
-    function menuNoticiasEsporteControllers (req, res) {
-        res.render('noticias/frm_.ejs', {
+    function menuNoticiasControllers (req, res) {
+        res.render('noticias/frm_noticiasMenu.ejs', {
             title: 'Noticias',
             mensagem: 'Noticias de Esporte',
             titulo: 'Menu Principal',
@@ -21,4 +21,3 @@ function menuNoticiasControllers (req, res) {
 
 }
 
-   
