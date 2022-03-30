@@ -13,7 +13,8 @@ header {
     background-color: aqua;
     height: 15vh;
     border: 1px solid black;
-    font-size: 20px;
+    font-size: 24px;
+
 }
 
 #corpo {
@@ -22,7 +23,6 @@ header {
     text-align: center;
     border: 0px solid black;
     font-size: 42px;
-
 }
 
 footer {
@@ -32,13 +32,11 @@ footer {
     font-size: 42px;
 }
 
+/*Menu Principal */
 
-/*
-    menu principal
 
-*/
-menuPrincipal ul li{
-
-    display:inline;
+.menuPrincipal ul li {
+    display: inline;
     padding-left: 22px;
 }
+

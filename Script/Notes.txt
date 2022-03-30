@@ -1,7 +1,0 @@
-site: 4 paginas
-
-1) Principal
-2 e 3) Diversos
-4) Formulário de Cadastro Pessoal e Postal
-
-* 12 colunas

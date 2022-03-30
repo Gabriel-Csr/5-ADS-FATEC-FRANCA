@@ -1,11 +1,7 @@
 const controllerNoticias = require('../controllers/noticiasControllers.js')
 
-app.get("/noticias/noticiasMenu", controllerNoticias.menuNoticiasControllers)
+app.get('/noticias/noticiasMenu', controllerNoticias.menuNoticiasControllers)
 
-app.get("/noticias/noticiasEsporteMenu", controllerNoticias.menuNoticiasEsporteControllers)
+app.get('/noticias/noticiasEsporteMenu', controllerNoticias.menuNoticiasEsporteControllers)
 
-app.get("noticias/noticias/EsporteFutebolMenu", controllerNoticias.menuNoticiasEsporteFutebolControllers)
-
-
-
-
+app.get('/noticias/noticiasEsporteFutebolMenu', controllerNoticias.menuNoticiasEsporteFutebolControllers)
