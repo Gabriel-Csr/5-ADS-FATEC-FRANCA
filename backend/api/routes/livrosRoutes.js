@@ -4,4 +4,12 @@ server.get('/livros', controller.livrosIndex)
 
 server.get('/livros/listar', controller.livrosGetAll)
 
+server.get('/livros/:id', controller.livrosGetById)
+
+server.get('/livros/:id', controller.livrosUpdate)
+
+server.delete('/livros/:id', controller.livrosDelete)
+
+server.get('/livros/ai/:id', controller.livrosAi)
+
 

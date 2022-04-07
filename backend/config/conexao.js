@@ -13,7 +13,7 @@ conexao.connect((err) => {
         console.log("Erro ao conectar no MySQL!" , err)
         return
     }
-    conexao.query("USE" + database)
+    conexao.query("USE " + database)
     console.log("/nConexão MySQL estabilizada com sucesso!")
 
 })
